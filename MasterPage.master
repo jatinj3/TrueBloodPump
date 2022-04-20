@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<%--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />--%>
+    <title>TrueBloodPump</title>
+    <link href="Demo.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+<div class="main">
+<div class="headermain">
+<div class="headerlogo"><img src="images/bloodonation.png" alt="bd" width="87" height="55" /></div>
+<div class="headertext">TRUE BLOOD PUMP</div>
+<div class="headerright">"A drop of life!"</div>
+<%--<div class="loginpanel">
+<div class="loginpaneldiv1">
+<div class="usernametext">Username</div>
+<div class="usernametextbox"><input type="text" name="uname" placeholder="enter username*" required="required"  /></div>
+
+</div>
+<div class="loginpaneldiv1">
+<div class="usernametext">Password</div>
+<div class="usernametextbox"><input type="text" name="uname" placeholder="enter password*" required="required"  /></div>
+</div>
+<div class="loginpaneldiv1">
+<div class="usernamebtn"><input type="button" name="login" value="Login"  /></div>
+</div>
+</div>--%>
+</div>
+
+<div class="mainmenu">
+<div class="menu1"><a href="Home.aspx" class="text">Home</a></div>
+<div class="menu1"><a href="#" class="text">Register Free</a></div>
+<div class="menu1"><a href="whydonateblood.aspx" class="text">Why donate blood?</a></div>
+<div class="menu1"><a href="whoneedsblood.aspx" class="text">Who needs blood?</a></div>
+<div class="menu1"><a href="bloodtips.aspx" class="text">Tips on donating</a></div>
+<div class="menu1"><a href="Bloodfact.aspx" class="text">Blood Fact</a></div>
+<div class="menu1"><a href="AboutUs.aspx" class="text">About Us</a></div>
+<div class="menu1"><a href="ContactUs.aspx" class="text">Contact Us</a></div>
+</div>
+
+<div class="slider">
+<div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+</div>
+<div class="contentmain">
+
+    
+    
+<div class="leftsidebar" ><img src="images/keep-calm-and-donate-blood-5.png" alt="bd" width="200" height="500" /></div>
+   
+<div class="rightsidebar" ><img src="images/keep-calm-and-donate-blood-5.png" 
+        alt="bd" width="200" height="500" /></div>
+<div style="margin-left:200px;margin-right:200px;" >
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+</asp:ContentPlaceHolder>
+</div> 
+</div>
+
+<div class="footer">
+<h3 style="text-align:center;">© TrueBloodPump 2015. All Rights Reserved.</h3>
+</div>
+</div>
+    
+    
+ </form>   
+</body>
+
+</html>

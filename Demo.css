@@ -1,0 +1,140 @@
+﻿
+body {
+margin:0px;
+}
+.main
+{width:1000px; height:auto; background-color:#996633; margin-left:auto; margin-right:auto;}
+.headermain
+{float:left; width:1000px; height:100px; background-color:#000066;}
+.headerlogo
+{float:left; margin-top:20px; width:120px; height:54px; background-color:#FFFF00; }
+
+.headertext
+{float:left; 
+margin-left:15px; 
+margin-top:34px; 
+width:auto; 
+height:auto; 
+color:#FFFFFF; 
+font-style:normal; 
+font-size:24px;
+font-family:"Times New Roman", Times, serif
+}
+.headerright
+{
+float:right;
+margin-right:500px; 
+margin-top:50px; 
+width:138px; 
+height:auto; 
+color:#FFFFFF; 
+font-style:italic; 
+font-size:20px;
+font-family:"Times New Roman", Times, serif
+}
+/*
+.loginpanel
+{
+float: left;
+width: 510px;
+height: 100px;
+background-color: rgb(153, 0, 0);
+margin-left: 121px;
+}
+.loginpaneldiv1
+{
+float:left;
+margin-left:5px;
+margin-right:5px;
+width:500px;
+height:auto;
+margin-top:10px;
+background-color:#CC6600;
+}
+.usernametext
+{
+
+float:left; 
+margin-left:5px; 
+margin-top:auto; 
+width:auto; 
+height:16px; 
+color:#FFFFFF; 
+font-style:oblique; 
+font-size:14px;
+font-family:"Times New Roman", Times, serif
+}
+.usernametextbox
+{
+float:left;
+margin-left:5px;
+}
+.usernamebtn
+{
+float:left;
+margin-left:70px;
+}*/
+.mainmenu
+{
+float:left; width:1000px; height:40px; background-color:#00FF00; radius:5px;
+}
+.menu1
+{
+float:left;
+padding:10px;
+width:auto;
+height:auto;
+border-right-color:#000000;
+border-right-width:1px;
+border-right-style:solid;
+
+}
+.text
+{
+color:#FFFFFF;
+text-decoration:none;
+}
+.text:hover
+{
+color:#666666;
+}
+.menu1 : hover
+{
+background-color:#333333;
+color:#000000;
+}
+.contentmain
+{
+    float:left;
+width:1000px;
+height:500px;
+background-color:#999999;
+}
+.slider
+{float:left; width:1000px; height:300px; background-color:#003300;}
+.leftsidebar
+{
+float:left;
+width:200px;
+height:500px;
+background-color:#FF0000;
+}
+.rightsidebar
+{
+float:right;
+width:200px;
+height:500px;
+background-color:#FF0000;
+}
+.footer
+{float:left;
+width:1000px;
+height:140px;
+background-color:#CC3333;
+}
+.contenthome
+{
+float:left;
+width:600px;    
+height:500px;    
+}
